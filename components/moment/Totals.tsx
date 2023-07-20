@@ -83,7 +83,8 @@ const Totals: React.FC<TotalsProps> = ({ givenDate }) => {
             >
               <dt className="text-sm leading-6 text-gray-300">{stat.name}</dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-white">
-                {stat.value}
+                {stat.value}&nbsp;&nbsp;&nbsp;
+                {/* &nbsp; nasty hack to stop layoutshift with smaller values in the Seconds box */}
               </dd>
             </div>
           ))}
