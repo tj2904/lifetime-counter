@@ -1,7 +1,6 @@
 import type { AppProps } from "next/app"
-import type { LayoutProps } from "@vercel/examples-ui/layout"
-import { getLayout } from "@vercel/examples-ui"
-import "@vercel/examples-ui/globals.css"
+import "../globals.css"
+import Head from "next/head"
 /**
  * Load a custom fallback font that we use in the example, you don't need to add
  * a fallback font if the default fallback font added by Next.js is good enough.
@@ -17,17 +16,16 @@ import "@vercel/examples-ui/globals.css"
  *  })
  * ```
  */
-import "../globals.css"
 
 function App({ Component, pageProps }: AppProps) {
-  const Layout = getLayout<LayoutProps>(Component)
 
   return (
-    <Layout
-      title="Loading web fonts"
-      path="solutions/loading-web-fonts"
-      description="How to correctly load web fonts"
+    <
     >
+      <Head>
+        <title>How long have you been living?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> 
+        </Head>
       <div className="relative z-10 bg-gray-900 ">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
           <div className="fixed left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
@@ -42,7 +40,7 @@ function App({ Component, pageProps }: AppProps) {
         </div>
         <Component {...pageProps} />
       </div>
-    </Layout>
+    </>
   )
 }
 
