@@ -20,7 +20,7 @@ function TimIndex() {
         Tim
       </h1>
       <CountUp givenDate={givenDate} />
-      <hr className=" mx-6 h-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 lg:mx-28" />
+      <hr className=" mx-6 h-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 md:mx-10 lg:mx-26" />
       <Totals givenDate={givenDate} />
 
       {/* <p className="pt-6">
