@@ -36,7 +36,6 @@ const Totals: React.FC<TotalsProps> = ({ givenDate }) => {
         totalMinutes: Math.round(duration.asMinutes()).toLocaleString(),
         totalSeconds: Math.round(duration.asSeconds()).toLocaleString(),
       })
-      console.log("duration: ", duration)
     }
 
     updateTotals()

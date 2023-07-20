@@ -39,7 +39,6 @@ const CountUp: React.FC<CountUpProps> = ({ givenDate }) => {
         seconds: duration.seconds(),
         totalSeconds: Math.round(duration.asSeconds()).toLocaleString(),
       })
-      console.log("duration: ", duration)
     }
 
     updateCountUp()
@@ -51,7 +50,7 @@ const CountUp: React.FC<CountUpProps> = ({ givenDate }) => {
     }
   }, [givenDate])
 
-  const { years, months, days, hours, minutes, seconds, totalSeconds } = CountUp
+  const { years, months, days, hours, minutes, seconds,  } = CountUp
 
   const stats: any = [
     { id: 1, name: "Years", value: years },
@@ -59,7 +58,6 @@ const CountUp: React.FC<CountUpProps> = ({ givenDate }) => {
     { id: 3, name: "Days", value: days },
     { id: 4, name: "Hours", value: hours },
     { id: 5, name: "Minutes", value: minutes },
-    // { id: 6, name: "Seconds", value: seconds},
   ]
 
   return (
