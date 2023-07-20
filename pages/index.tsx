@@ -5,9 +5,6 @@ const CountUp = dynamic(() => import("../components/moment/CountUp"), {
   ssr: false,
 })
 
-const XDaysFromY = dynamic(() => import("../components/moment/XDaysFromY"), {
-  ssr: false,
-})
 const Totals = dynamic(() => import("../components/moment/Totals"), {
   ssr: false,
 })
