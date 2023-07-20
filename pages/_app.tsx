@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app"
-import "../globals.css"
+import { Analytics } from "@vercel/analytics/react"
 import Head from "next/head"
+import "../globals.css"
 /**
  * Load a custom fallback font that we use in the example, you don't need to add
  * a fallback font if the default fallback font added by Next.js is good enough.
@@ -39,6 +40,7 @@ function App({ Component, pageProps }: AppProps) {
           </div>
         </div>
         <Component {...pageProps} />
+        <Analytics />
       </div>
     </>
   )
