@@ -1,35 +1,35 @@
 {
-  "name": "loading-web-fonts",
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/luxon": "^3.3.0",
-    "@vercel/analytics": "^1.0.1",
-    "@vercel/examples-ui": "^1.0.5",
-    "luxon": "^3.3.0",
-    "moment": "^2.29.4",
-    "next": "canary",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.14",
-    "@types/react": "latest",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.45.0",
-    "eslint-config-next": "canary",
-    "postcss": "^8.4.26",
-    "prettier": "3.0.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "tailwindcss": "^3.3.3",
-    "turbo": "^1.10.9",
-    "typescript": "^4.9.5"
-  }
+    "name": "loading-web-fonts",
+    "repository": "https://github.com/vercel/examples.git",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@types/luxon": "^3.3.0",
+        "@vercel/analytics": "^1.0.1",
+        "@vercel/examples-ui": "^1.0.5",
+        "luxon": "^3.3.0",
+        "moment": "^2.29.4",
+        "next": "canary",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.14",
+        "@types/react": "latest",
+        "autoprefixer": "^10.4.14",
+        "eslint": "^8.45.0",
+        "eslint-config-next": "canary",
+        "postcss": "^8.4.26",
+        "prettier": "3.0.0",
+        "prettier-plugin-tailwindcss": "^0.4.1",
+        "tailwindcss": "^3.3.3",
+        "turbo": "^1.10.9",
+        "typescript": "^4.9.5"
+    }
 }

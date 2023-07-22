@@ -50,7 +50,7 @@ const CountUp: React.FC<CountUpProps> = ({ givenDate }) => {
     }
   }, [givenDate])
 
-  const { years, months, days, hours, minutes, seconds,  } = CountUp
+  const { years, months, days, hours, minutes, seconds } = CountUp
 
   const stats: any = [
     { id: 1, name: "Years", value: years },
