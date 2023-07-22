@@ -19,14 +19,15 @@ import "../globals.css"
  */
 
 function App({ Component, pageProps }: AppProps) {
-
   return (
-    <
-    >
+    <>
       <Head>
         <title>How long have you been living?</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> 
-        </Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+      </Head>
       <div className="relative z-10 bg-gray-900 ">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
           <div className="fixed left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
