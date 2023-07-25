@@ -22,12 +22,6 @@ function TimIndex() {
       <CountUp givenDate={birthday} />
       <hr className=" lg:mx-26 mx-6 h-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 md:mx-10" />
       <Totals givenDate={birthday} />
-
-      {/* <p className="pt-6">
-        {" "}
-        500 Days from my 43th Birthday:
-        <XDaysFromY givenDate={givenDate} />
-      </p> */}
     </>
   )
 }
