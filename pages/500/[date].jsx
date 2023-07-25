@@ -10,11 +10,10 @@ export const getServerSideProps = async ({ query }) => {
     },
   }
 }
-const CountUp = dynamic(() => import("../components/moment/CountUp"), {
+const XDaysFromY = dynamic(() => import("../../components/moment/XDaysFromY"), {
   ssr: false,
 })
-
-const Totals = dynamic(() => import("../components/moment/Totals"), {
+const Totals = dynamic(() => import("../../components/moment/Totals"), {
   ssr: false,
 })
 
@@ -25,9 +24,9 @@ function AnyDate(date) {
   return (
     <>
       <h1 className="p-4 text-center font-serif text-6xl font-semibold text-white ">
-        If born on {urlDate}
+        500 Days
       </h1>
-      <CountUp givenDate={birthday} />
+      <XDaysFromY givenDate={birthday} xDays={500} daysFrom={urlDate} />
       <hr className=" lg:mx-26 mx-6 h-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 md:mx-10" />
       <Totals givenDate={birthday} />
     </>
