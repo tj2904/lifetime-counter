@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic"
+import Head from "next/head"
 import moment from "moment"
 
 export const getServerSideProps = async ({ query }) => {
@@ -26,6 +27,9 @@ function AnyDate(date) {
   const birthday = moment(`${urlDate}`, "DD-MM-YYYY")
   return (
     <>
+      <Head>
+        <title>500 Days from...</title>
+      </Head>
       <h1 className="p-4 text-center font-serif text-6xl font-semibold text-white ">
         500 Days
       </h1>
