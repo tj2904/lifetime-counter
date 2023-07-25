@@ -13,9 +13,12 @@ export const getServerSideProps = async ({ query }) => {
 const XDaysFromY = dynamic(() => import("../../components/moment/XDaysFromY"), {
   ssr: false,
 })
-const Totals = dynamic(() => import("../../components/moment/Totals"), {
-  ssr: false,
-})
+const GenericTotals = dynamic(
+  () => import("../../components/moment/GenericTotals"),
+  {
+    ssr: false,
+  },
+)
 
 function AnyDate(date) {
   // Create a Moment.js object for the date in url
@@ -28,7 +31,7 @@ function AnyDate(date) {
       </h1>
       <XDaysFromY givenDate={birthday} xDays={500} daysFrom={urlDate} />
       <hr className=" lg:mx-26 mx-6 h-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 md:mx-10" />
-      <Totals givenDate={birthday} />
+      <GenericTotals givenDate={birthday} />
     </>
   )
 }
