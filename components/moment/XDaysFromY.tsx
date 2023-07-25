@@ -69,7 +69,7 @@ const XDaysFromY: React.FC<CountdownProps> = ({
     { id: 6, name: "Seconds", value: seconds },
   ]
 
-  const formattedFutureDate = futureDate.format("Do MMMM YYYY")
+  const formattedFutureDate = futureDate.format("dddd Do MMMM YYYY")
 
   return (
     <div className="mx-auto grid max-w-7xl lg:grid-cols-1">
