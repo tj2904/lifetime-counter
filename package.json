@@ -1,6 +1,6 @@
 {
-    "name": "loading-web-fonts",
-    "repository": "https://github.com/vercel/examples.git",
+    "name": "lifetime-counter",
+    "repository": "https://github.com/tj2904/lifetime-counter",
     "license": "MIT",
     "private": true,
     "scripts": {
@@ -26,10 +26,10 @@
         "eslint": "^8.45.0",
         "eslint-config-next": "canary",
         "postcss": "^8.4.26",
-        "prettier": "3.0.0",
-        "prettier-plugin-tailwindcss": "^0.4.1",
+        "prettier": "3.2.4",
+        "prettier-plugin-tailwindcss": "^0.5.11",
         "tailwindcss": "^3.3.3",
         "turbo": "^1.10.9",
-        "typescript": "^4.9.5"
+        "typescript": "^5"
     }
 }
