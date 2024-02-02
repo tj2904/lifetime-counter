@@ -10,11 +10,11 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@types/luxon": "^3.3.0",
-        "@vercel/analytics": "^1.0.1",
+        "@types/luxon": "^3.4.2",
+        "@vercel/analytics": "^1.1.2",
         "@vercel/examples-ui": "^1.0.5",
-        "luxon": "^3.3.0",
-        "moment": "^2.29.4",
+        "luxon": "^3.4.4",
+        "moment": "^2.30.1",
         "next": "canary",
         "react": "latest",
         "react-dom": "latest"
@@ -22,14 +22,14 @@
     "devDependencies": {
         "@types/node": "17.0.14",
         "@types/react": "latest",
-        "autoprefixer": "^10.4.14",
-        "eslint": "^8.45.0",
+        "autoprefixer": "^10.4.17",
+        "eslint": "^8.56.0",
         "eslint-config-next": "canary",
-        "postcss": "^8.4.26",
+        "postcss": "^8.4.33",
         "prettier": "3.2.4",
         "prettier-plugin-tailwindcss": "^0.5.11",
-        "tailwindcss": "^3.3.3",
-        "turbo": "^1.10.9",
-        "typescript": "^5"
+        "tailwindcss": "^3.4.1",
+        "turbo": "^1.12.2",
+        "typescript": "^5.3.3"
     }
 }
