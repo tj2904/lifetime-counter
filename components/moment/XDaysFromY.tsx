@@ -56,7 +56,7 @@ const XDaysFromY: React.FC<CountdownProps> = ({
     return (): void => {
       clearInterval(interval)
     }
-  }, [givenDate])
+  }, [givenDate, futureDate, daysFrom])
 
   const { years, months, days, hours, minutes, seconds } = countdown
 
